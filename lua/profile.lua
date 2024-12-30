@@ -11,6 +11,7 @@ local util = require("profile.util")
 ---@field tid number The thread ID number.
 ---@field ts number The start CPU time.
 
+---@class Profiler
 local M = {}
 
 local event_defaults = {
